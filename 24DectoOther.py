@@ -1,0 +1,5 @@
+dec=int(input("Enter a decimal value:"))
+print(f"The decimal value of {dec} is:")
+print(f"{bin(dec)} in binary.")
+print(f"{oct(dec)} in octal.")
+print(f"{hex(dec)} in hexadecimal.")
