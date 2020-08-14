@@ -1,0 +1,7 @@
+a=float(input())
+b=float(input())
+c=float(input())
+m=max(a,max(b,c))
+if m==a:print(f"Max is a={a}")
+elif m==b:print(f'MAx is b={b}')
+elif m==c:print(f'MAx is c={c}')
